@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   call-workflow:
-    uses: adm-rene-scharfe/ActionsFundamentals/.github/workflows/reusable.yml@main
+    uses: ./.github/workflows/reusable.yml
     with:
       who-to-greet: Jim
   use-output:
